@@ -10,6 +10,8 @@ logging:
   level:
     io:
       pivotal: DEBUG
+info:
+  app: ${spring.application.name}
 #spring: # <---NEW SECTION
 #  cloud:
 #    services:
